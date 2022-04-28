@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.everything-container{
+    width: 1280px;
+    margin: auto;
+    max-width: 100%;
+}
+main{
+    background-image: url('./assets/images/start-screen-gradient-background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 908px;
+    margin: auto;
+}
+
+header{
+    display: flex;
+   justify-content: space-between;
+   padding-top: 60px;
+   align-items: center;
+}
+.house{
+    margin-left: 40px;
+}
+.menu-container{
+    margin-right: 40px;
+    display: flex;
+    list-style: none;
+}
+.menu-container li{
+    margin: 0 15px;
+}
+
+.menu-container li a{
+    color: #CDCDCD;
+    text-decoration: none;
+}
+.menuspan{
+    display: none;
+}
+.menu-bars{
+    font-size: 32px;
+    color: #F1CDB3;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.menu-bars:hover{
+    transform: rotate(90deg);
+}
+.menu-container li a:hover{
+  color: #FAFAFA;
+  border-bottom: 2px solid #FAFAFA;
+  padding: 5px 0;
+}
+
+.house h1{
+    color: #F1CDB3;
+    font-family: georgia;
+    font-size: 32px;
+    font-weight: 400;
+    letter-spacing: 0.06em;
+}
+.house p{
+    font-family: Arial;
+    color:#FFFFFF;
+}
+.container-title{
+    display: flex;
+}
+.people-need{
+    margin-top: 223px;
+    margin-left: 40px;
+}
+.people-need h2{
+    font-style: normal;
+    color: #FFFFFF;
+    font-size: 44px;
+    font-weight: 400;
+    width: 310px;
+    height: 114px;
+    margin-bottom: 42px;
+}
+
+.people-need p{
+    color:#CDCDCD;
+    width: 460px;
+    height: 72px;
+    font-weight: 400;
+    margin-bottom: 57px;
+}
+.makeFriend{
+   padding: 15px 45px;
+   background: #F1CDB3;
+   border: none;
+   border-radius: 100px;
+   cursor: pointer;
+}
+.firstdog{
+    width: 698px;
+    height: 728px;
+    position: absolute;
+    right: 40px;
+    top: 180px;
+}
+
+.firstdog img{
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 768px){
+    main{
+      height: 1165px;
+    }
+    header{
+       padding-top: 30px;
+    }
+    .house{
+        margin-left: 30px;
+    }
+    .menu-container{
+        margin-right: 30px;
+    }
+    .house p{
+        font-size: 13px;
+    }
+
+    .people-need{
+        margin-top: 60px;
+        margin-left: 154px;
+    }
+    .firstdog{
+        width: 569px;
+        height: 593px;
+        position: absolute;
+        top: 572px;
+        right: 30px;
+    }
+}
+
+@media (max-width: 320px){
+    main{
+        height: 823px;
+        width: 320px;
+      }
+    header{
+        display: block;
+    }
+    .house{
+        margin-left: 0;
+    }
+    .house.actives{
+        position: absolute;
+        z-index: 7;
+    }
+   
+    .menu-container{
+        height: 0;
+        visibility: hidden;
+        transition: 0.5s;
+       
+    }
+    .menu-container li{
+        position: absolute;
+        margin-top: calc(200px * var(--i));
+        left: 80px;
+    }
+    .menu-container.active{
+        height: 823px;
+        visibility: visible;
+        display: block;
+        top: 0;
+        left: 0;
+        background:#292929;
+        position: fixed;
+        width: 100%;
+        z-index: 5;
+    }
+    .menuspan{
+        display: block;
+        position: absolute;
+        right: 53px;
+        top: 51px;
+        z-index: 6;
+    }
+    .container-title{
+        display: flex;
+        justify-content: center;
+    }
+
+    .people-need{
+        margin-top: 150px;
+        margin-left: 10;
+    }
+    .people-need h2{
+        font-style: normal;
+        font-size: 25px;
+        width: 200px;
+        height: 90px;
+        text-align: center;
+        position: absolute;
+        left: 10px;
+        top: 150px;
+    }
+    
+    .people-need p{
+        color:#CDCDCD;
+        width: 280px;
+        height: 72px;
+        font-weight: 400;
+        margin-bottom: 57px;
+        position: absolute;
+        left: 10px;
+        top: 256px;
+    }
+
+    .makeFriend{
+        position: absolute;
+        top: 395px;
+        left: 56px;
+
+    }
+
+    .firstdog{
+        width: 260px;
+        height: 271.77px;
+        top: 551px;
+        left: 10px;
+    }
+
+}
