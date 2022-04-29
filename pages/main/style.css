@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    scroll-behavior: smooth;
+    /*scroll-behavior: smooth;*/
 }
 
 .everything-container{
@@ -508,4 +508,69 @@ header{
    font-family: Georgia, 'Times New Roman', Times, serif;
    font-size: 20px;
    margin-top: 30px;
+}
+
+.donation{
+    width: 100%;
+    height: 462px;
+    background: #F6F6F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.info-of-donation{
+    margin-top: 80px;
+    width: 380px;
+    margin-right: 182px;
+}
+
+.info-of-donation h3{
+    color: #545454;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 300px;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+}
+.info-of-donation p{
+    color: #545454;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 0.06em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 20px;
+}
+.Credit-card{
+    display: flex;
+    align-items: center;
+    width: 349px;
+    background: #F1CDB3;
+    height: 43px;
+    justify-content: center;
+    margin-top: 30px;
+}
+.Credit-card p{
+    font-size: 20px;
+    text-align: center;
+    margin-left: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 0.06em;
+}
+.info-of-donation .italic-text{
+    color:#B2B2B2;
+    font-size: 12px;
+    font-style: italic;
+    line-height: 18px;
+   
+}
+.picture-donation{
+    width: 505px;
+    height: 261px;
+    margin-left: 183px;
+}
+.picture-donation img{
+    width: 100%;
+    height: 100%;
 }
