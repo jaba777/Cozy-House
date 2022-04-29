@@ -439,7 +439,7 @@ header{
     justify-content: center;
     border-radius: 50%;
     transition: 1s;
-    top: 43%;
+    top: 40%;
 }
 
 .leftIcon{
@@ -454,4 +454,22 @@ header{
 .leftIcon:hover,
 .rightIcon:hover{
     background: #dfb394;
+}
+.knouThe-rest{
+    background: #dfb394;
+    border: none;
+    color: #292929;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+    font-weight: 400;
+    padding: 10px 25px;
+    border-radius: 2rem;
+}
+.knouPet{
+    display: flex;
+    justify-content: center;
+    margin-top: 75px;
+}
+.knouPet button{
+    cursor: pointer;
 }
