@@ -11,7 +11,7 @@
 </head>
 <body>
     <div class="everything-container">
-        <main>
+        <main id="main">
             <header>
                 <div class="house">
                   <h1>Cozy House</h1>
@@ -19,10 +19,10 @@
                 </div>
 
                 <ul class="menu-container">
-                    <li style="--i: 1"><a href="#shelter">About the shelter</a></li>
+                    <li style="--i: 1"><a href="#shelter" id="navly">About the shelter</a></li>
                     <li style="--i: 2"><a href="#ourPets">Our pets</a></li>
                     <li style="--i: 3"><a href="#shelter-icons">Help the shelter</a></li>
-                    <li style="--i: 4"><a href="#">Contacts</a></li>
+                    <li style="--i: 4"><a href="#contact">Contacts</a></li>
                 </ul>
                 <span class="menuspan"><i class="fas fa-bars menu-bars"></i></span>
             </header>
@@ -125,7 +125,7 @@
             </div>
             <span class="leftIcon"><img src="./assets/icons/Arrow left.svg" alt="Arrowleft"></span>
             <span class="rightIcon"><img src="./assets/icons/Arrow right.svg" alt="ArrowRight"></span>
-            <div class="knouPet"><button class="knouThe-rest">Get to know the rest</button></div>
+            <div class="knouPet"><a href="../pets/index.html" class="knouThe-rest">Get to know the rest</a></div>
 
         </section>
 
@@ -177,7 +177,7 @@
                <p>Name of the bank / Type of bank account</p>
                <div class="Credit-card">
                    <img src="./assets/icons/credit-card.svg" alt="Credit cart">
-                   <p>8380 2880 8028 8791 7435</p>
+                   <a href="#main">8380 2880 8028 8791 7435</a>
                </div>
                <p class="italic-text">
                 Legal information and lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -191,7 +191,7 @@
            </div>
         </section>
 
-        <footer>
+        <footer id="contact">
           <section class="footer-section">
             <div class="footer-container container1">
                 <h3>For questions and suggestions</h3>
@@ -199,31 +199,31 @@
                     <div class="footer-icon">
                         <img src="./assets/icons/icon-email.svg" alt="Phone">
                     </div>
-                    <h4>email@shelter.com</h4>
+                    <a href="mailto:email@shelter.com" id="email">email@shelter.com</a>
                 </div>
 
                 <div class="footer-images">
                     <div class="footer-icon">
                         <img src="./assets/icons/icon-phone.svg" alt="Phone">
                     </div>
-                    <h4>+13 674 567 75 54</h4>
+                    <a href="tel: +13 674 567 75 54" id="tel">+13 674 567 75 54</a>
                 </div>
             </div>
 
             <div class="footer-container container2">
                 <h3>We are waiting for your visit</h3>
-                <div class="footer-images">
+                <div class="footer-images footer-images1">
                     <div class="footer-icon">
                         <img src="./assets/icons/icon-marker.svg" alt="Phone">
                     </div>
-                    <h4>1 Central Street, Boston (entrance from the store)</h4>
+                    <a href="https://www.google.com/maps/place/1+Centre+St+Terrace,+Boston,+MA+02119,+USA/@42.326022,-71.0963194,17z/data=!3m1!4b1!4m5!3m4!1s0x89e37a29f109ad67:0x3c3f6a5c559c7586!8m2!3d42.326022!4d-71.0963194">1 Central Street, Boston (entrance from the store)</a>
                 </div>
 
-                <div class="footer-images">
-                    <div class="footer-icon">
+                <div class="footer-images footer-images2">
+                    <div class="footer-icon" id="london-park">
                         <img src="./assets/icons/icon-marker.svg" alt="Phone">
                     </div>
-                    <h4>18 South Park, London </h4>
+                    <a href="https://www.google.com/maps/place/1+Centre+St+Terrace,+Boston,+MA+02119,+USA/@42.326022,-71.0963194,17z/data=!3m1!4b1!4m5!3m4!1s0x89e37a29f109ad67:0x3c3f6a5c559c7586!8m2!3d42.326022!4d-71.0963194">18 South Park, London </a>
                 </div>
             </div>
 

@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /*scroll-behavior: smooth;*/
+    scroll-behavior: smooth;
 }
 
 .everything-container{
@@ -16,7 +16,6 @@ main{
     background-position: center;
     background-size: cover;
     width: 100%;
-    height: 908px;
     margin: auto;
 }
 
@@ -33,6 +32,10 @@ header{
     margin-right: 40px;
     display: flex;
     list-style: none;
+}
+#navly{
+    border-bottom: 2px solid #FAFAFA; 
+    padding: 5px 0;
 }
 .menu-container li{
     margin: 0 15px;
@@ -314,7 +317,6 @@ header{
 
 .shelter-Container{
     width: 100%;
-    height: 588px;
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
@@ -371,7 +373,6 @@ header{
 
 .ourPets{
     width: 100%;
-    height: 877px;
     position: relative;
     background: #F6F6F6;
 }
@@ -464,21 +465,21 @@ header{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 17px;
     font-weight: 400;
-    padding: 10px 25px;
+    padding: 15px 35px;
     border-radius: 2rem;
+    text-decoration: none;
+
 }
 .knouPet{
     display: flex;
     justify-content: center;
     margin-top: 75px;
 }
-.knouPet button{
-    cursor: pointer;
-}
+
 
 .shelter-icons{
     width: 100%;
-    height: 611px;
+   
     background-color: #FFFFFF;
 }
 .shelter-icons h3{
@@ -512,7 +513,6 @@ header{
 
 .donation{
     width: 100%;
-    height: 462px;
     background: #F6F6F6;
     display: flex;
     justify-content: space-between;
@@ -551,12 +551,16 @@ header{
     justify-content: center;
     margin-top: 30px;
 }
-.Credit-card p{
+.Credit-card a{
     font-size: 20px;
     text-align: center;
     margin-left: 15px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     letter-spacing: 0.06em;
+    
+    text-decoration: none;
+    color: #545454;
+
 }
 .info-of-donation .italic-text{
     color:#B2B2B2;
@@ -576,7 +580,6 @@ header{
 }
 footer{
     width: 100%;
-    height: 350px;
     background-image: url('./assets/images/start-screen-gradient-background.jpg');
     background-repeat: no-repeat;
     background-position: center;
@@ -619,13 +622,14 @@ footer{
     display: flex;
     align-items: center;
     margin-top: 45px;
-    width: 300px;
+   
 }
-.footer-images h4{
+.footer-images a{
     color: #F1CDB3;
     font-weight: 400;
     font-size: 20px;
     margin-left: 20px;
+    text-decoration: none;
 }
 
 .puppyImage{
@@ -634,7 +638,12 @@ footer{
     margin-top: 40px;
     margin-right: 40px;
 }
+
 .puppyImage img{
     width: 100%;
     height: 100%;
+}
+
+.footer-images1 a{
+    width: 230px;
 }
