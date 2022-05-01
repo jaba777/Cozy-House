@@ -321,6 +321,7 @@ header{
     flex-direction: row-reverse;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 100px;
 }
 .shelterImage{
     width: 300px;
@@ -518,6 +519,8 @@ header{
     justify-content: space-between;
     align-items: center;
     flex-direction: row-reverse;
+    margin-bottom: 110px;
+    margin-top: 153px;
 }
 .info-of-donation{
     margin-top: 80px;
