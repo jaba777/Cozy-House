@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.everything-container{
+    max-width: 1280px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.house{
+    margin-left: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+}
+h1{
+ color:#545454;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ font-weight: 400;
+ font-size: 32px;
+ letter-spacing: 0.06em;
+}
+.house p{
+  color: #292929;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  letter-spacing: 0.1em;
+  font-weight: 400;
+}
+nav{
+    margin-right: 40px;
+}
+.menu-container{
+    list-style: none;
+    display: flex;
+}
+.menu-container li{
+    margin-right: 15px;
+}
+.menu-container li a{
+    text-decoration: none;
+    color:#545454;
+    font-size: 15px;
+}
+
+.our-pets{
+    border-bottom: 3px solid #F1CDB3;
+    padding: 5px 0;
+}
+
+.menu-container li a:hover{
+    border-bottom: 3px solid #F1CDB3;
+    padding: 5px 0;
+}
