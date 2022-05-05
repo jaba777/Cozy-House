@@ -70,7 +70,6 @@ nav{
 .Housesection-title{
     max-width: 1200px;
     margin: 0 auto;
-    border: 1px solid #292929;
     width: 100%;
 }
 .Housesection-title h3{
@@ -87,7 +86,6 @@ nav{
    gap: 1.5rem;
 }
 .petbox{
-    border: 2px solid #292929;
     position: relative;
 }
 
@@ -118,5 +116,133 @@ nav{
 }
 
 .pets-btn:hover{
+    background-color: #d4a582;
+}
+.icons{
+    margin: 74px 0 115px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.icons span{
+    font-weight: 400;
+    width: 23px;
+    height: 23px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    padding: 25px;
+    margin: 15px;
+    cursor: pointer;
+    transition: 1s;
+}
+.lefticon{
+    opacity: 0.5;
+    border: 1px solid #292929;
+}
+.oneicon{
+    border: 1px solid #F1CDB3;
+    background-color: #F1CDB3;
+}
+.rightIcon{
+    border: 1px solid #d4a582;
+}
+.rightIcon:hover{
+    border: 1px solid #F1CDB3;
+    background-color: #F1CDB3;
+}
+
+.petsofInfo{
+    width: 100%;
+    min-height: 100%;
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgba(80, 74, 74, 0.5);
+    display: none;
+}
+
+.petsofInfo.active{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.petsofInfocontainers{
+    width: 750px;
+    position: relative;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 90%;
+}
+.petsofInfo-container{
+    background: #fff;
+    width: 630px;
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.pets-info h3{
+    font-weight: 400;
+    font-size: 35px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+}
+.pets-info h4{
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+}
+.pets-info{
+    width: 260px;
+    margin: 0 auto;
+}
+.pets-info p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 13px;
+}
+.petData{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.petData p{
+    margin-bottom: 5px;
+    
+}
+.boldinfo{
+    font-weight: bold;
+}
+.cancelIcon{
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    padding: 25px;
+    margin: 15px;
+    cursor: pointer;
+    border: 3px solid #d4a582;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 0;
+    top: 25px;
+    
+}
+.cancelIcon:hover{
     background-color: #d4a582;
 }
