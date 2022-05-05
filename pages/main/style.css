@@ -105,6 +105,8 @@ header{
    border: none;
    border-radius: 100px;
    cursor: pointer;
+   text-decoration: none;
+   color: #292929;
 }
 .firstdog{
     width: 698px;
