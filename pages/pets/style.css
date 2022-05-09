@@ -119,7 +119,7 @@ nav{
     background-color: #d4a582;
 }
 .icons{
-    margin: 74px 0 115px 0;
+    padding: 74px 0 115px 0;
     display: flex;
     justify-content: center;
     align-items: center;
