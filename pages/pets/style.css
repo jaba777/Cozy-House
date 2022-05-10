@@ -25,11 +25,14 @@ header{
     flex-direction: column;
 }
 h1{
- color:#545454;
- font-family: Georgia, 'Times New Roman', Times, serif;
  font-weight: 400;
  font-size: 32px;
  letter-spacing: 0.06em;
+}
+h1 a{
+    text-decoration: none;
+    color:#545454;
+     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .house p{
   color: #292929;
@@ -79,6 +82,7 @@ nav{
   width: 400px;
   text-align: center;
   margin: 80px auto;
+  max-width: 50%;
 }
 .pets-Container{
    display: grid;
@@ -87,6 +91,7 @@ nav{
 }
 .petbox{
     position: relative;
+    transition: 1s;
 }
 
 .images img{
@@ -115,15 +120,19 @@ nav{
     border-radius: 20px;
 }
 
-.pets-btn:hover{
+.petbox:hover .pets-btn{
     background-color: #d4a582;
+}
+.petbox:hover{
+    padding: 0.5rem;
+    box-shadow: 1px 8px 20px 14px rgba(0,0,0,0.42);
 }
 .icons{
     padding: 74px 0 115px 0;
     display: flex;
     justify-content: center;
     align-items: center;
-   
+    flex-wrap: wrap;
 }
 .icons span{
     font-weight: 400;
@@ -316,4 +325,10 @@ footer{
 
 .footer-images1 a{
     width: 230px;
+}
+@media(max-width: 373px){
+    .menu-container{
+        
+        display: none;
+    }
 }
