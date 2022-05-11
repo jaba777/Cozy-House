@@ -72,8 +72,9 @@ nav{
 }
 .Housesection-title{
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 80px auto;
     width: 100%;
+    
 }
 .Housesection-title h3{
   color:#545454;
