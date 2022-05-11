@@ -145,19 +145,21 @@ nav{
     border-radius: 50%;
     padding: 25px;
     margin: 15px;
-    cursor: pointer;
     transition: 1s;
 }
 .lefticon{
     opacity: 0.5;
     border: 1px solid #292929;
+    cursor: default;
 }
 .oneicon{
     border: 1px solid #F1CDB3;
     background-color: #F1CDB3;
+    cursor: default;
 }
 .rightIcon{
     border: 1px solid #d4a582;
+    cursor: pointer;
 }
 .rightIcon:hover{
     border: 1px solid #F1CDB3;
